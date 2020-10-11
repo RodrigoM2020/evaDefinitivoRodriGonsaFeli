@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_marginHorizontal="16dp" >
+<!--    android:background="@drawable/background_harry1"-->
+
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/harrycircleimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:src="@drawable/harry_img"
+        android:background="@drawable/card_harry"
+        />
+
+
+
+        <TextView
+            android:id="@+id/nameharry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Harry Potter"
+            android:layout_toRightOf="@id/harrycircleimg"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/girassol_regular"
+            android:textColor="#B54949"
+            />
+
+
+        <TextView
+            android:id="@+id/speciesharry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:fontFamily="@font/girassol_regular"
+            android:text="species"
+            android:layout_below="@id/nameharry"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/genderharry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Male"
+            android:textColor="#fff"
+            android:layout_below="@id/speciesharry"
+            />
+
+
+
+</RelativeLayout>
+
