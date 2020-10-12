@@ -19,7 +19,7 @@
         android:orientation="vertical"
         android:layout_gravity="center"
         android:textColor="#ffff"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:fontFamily="@font/harry_potter"
         />
 
@@ -28,10 +28,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
-        android:text="FELIPE ALONSO PINO BRIONES"
+        android:text="* FELIPE A. PINO BRIONES"
         android:orientation="vertical"
         android:textColor="#ffff"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:layout_below="@id/txt_integrantes"
         android:fontFamily="@font/harry_potter"
         />
@@ -39,10 +39,10 @@
         android:id="@+id/nom_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="75dp"
-        android:text="GONSALO ANDRÉS GAJARDO MORA"
+        android:layout_marginLeft="35dp"
+        android:text="* GONSALO A. GAJARDO MORA"
         android:textColor="#ffff"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:layout_below="@id/nom_1"
         android:fontFamily="@font/harry_potter"
         />
@@ -50,16 +50,14 @@
         android:id="@+id/nom_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="105dp"
-        android:text="RODRIGO MAURICIO MUÑOZ SALAS"
+        android:layout_marginLeft="35dp"
+        android:text="* RODRIGO M. MUÑOZ SALAS"
         android:orientation="vertical"
         android:textColor="#ffff"
-        android:textSize="15sp"
+        android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:layout_below="@id/nom_2"
         android:fontFamily="@font/harry_potter"
         />
-
-
 
 </RelativeLayout>

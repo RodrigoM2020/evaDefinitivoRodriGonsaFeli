@@ -23,7 +23,6 @@
     android:fontFamily="@font/harry_potter"
     android:layout_marginLeft="30dp"
     android:layout_marginRight="30dp"
-
     android:layout_below="@id/txt_usuario"
     android:hint="Password"
     android:inputType="number"/>
@@ -36,8 +35,9 @@
     android:text="Entrar"
     android:onClick="entrar"
     android:background="#4DF3ECE2"
-    android:textColor="#433E3E"
+    android:textColor="#ffff"
     android:layout_centerHorizontal="true"
+    android:layout_marginTop="200dp"
     android:layout_below="@id/txt_password"
     android:fontFamily="@font/harry_potter"/>
 

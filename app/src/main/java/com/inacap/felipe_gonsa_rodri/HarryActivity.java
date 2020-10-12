@@ -25,13 +25,14 @@ public class HarryActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void entrar(View view) {
-        if(txt.getText().toString().isEmpty()){
-            Toast.makeText(this,"Ingrese un Usuario",Toast.LENGTH_LONG).show();
+        if (txt.getText().toString().isEmpty() && (txt2.getText().toString().isEmpty())) {
+            Toast.makeText(this, "Ingrese Todos los Campos", Toast.LENGTH_LONG).show();
+        } else {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
         }
-        Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
     }
-
-
-
 }
+
+
+
